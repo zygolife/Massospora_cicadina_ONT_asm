@@ -1,0 +1,189 @@
+[bwa_index] Pack FASTA... [bwa_index] Pack FASTA... [bwa_index] Pack FASTA... [bwa_index] Pack FASTA... 17.86 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=2784169932, availableWord=207904292
+20.30 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=2841817376, availableWord=211960712
+18.27 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=2857792982, availableWord=213084496
+21.34 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=3048929284, availableWord=226533508
+[BWTIncConstructFromPacked] 10 iterations done. 99999996 characters processed.
+[BWTIncConstructFromPacked] 10 iterations done. 99999990 characters processed.
+[BWTIncConstructFromPacked] 10 iterations done. 100000000 characters processed.
+[BWTIncConstructFromPacked] 10 iterations done. 99999988 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999996 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999990 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 200000000 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999988 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999996 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999990 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 300000000 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999988 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999996 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999990 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 400000000 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999988 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999996 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999990 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 500000000 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999996 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999988 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999990 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 600000000 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999996 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999990 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999988 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 700000000 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999996 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999990 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999988 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 800000000 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999996 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999990 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999988 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 900000000 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999996 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999990 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999988 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 1000000000 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999996 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999990 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999988 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1100000000 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999996 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999990 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999988 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1200000000 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999996 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999990 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999988 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1300000000 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999990 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999996 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999988 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1400000000 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999990 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999996 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1500000000 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999988 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999996 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999990 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1600000000 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999988 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999990 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999996 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1700000000 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999988 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999990 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999996 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1800000000 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999990 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999988 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999996 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999990 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1900000000 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999988 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999996 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2099999990 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 2000000000 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999988 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2099999996 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2199799126 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2100000000 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999988 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2195164572 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2292083734 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2199317216 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2099999988 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2279772236 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2374102550 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2289878192 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2199999988 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2354967724 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2446997078 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2370365056 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2421797660 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2299999988 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2511781942 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2441897936 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2569358886 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2481192268 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2505472592 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2399566852 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2620529350 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2533978348 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2561973856 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2666005766 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2490899012 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2580890732 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2612188320 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2706421334 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2622582524 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2656815024 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2572071252 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 2742338758 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2659634300 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2696475344 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 2774258230 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2644213364 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 2802624310 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 2692561948 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 2731721504 characters processed.
+[BWTIncConstructFromPacked] 340 iterations done. 2827832134 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 2721824108 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 2763044336 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2708329444 characters processed.
+[BWTIncConstructFromPacked] 350 iterations done. 2850232854 characters processed.
+[bwa_index] 1239.38 seconds elapse.
+[bwa_index] Update BWT... [BWTIncConstructFromPacked] 330 iterations done. 2747828380 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 2790880144 characters processed.
+11.07 sec
+[bwa_index] Pack forward-only FASTA... [BWTIncConstructFromPacked] 290 iterations done. 2765311972 characters processed.
+[BWTIncConstructFromPacked] 340 iterations done. 2770937020 characters processed.
+11.71 sec
+[bwa_index] Construct SA from BWT and Occ... [BWTIncConstructFromPacked] 340 iterations done. 2815616624 characters processed.
+[bwa_index] 1273.98 seconds elapse.
+[bwa_index] Update BWT... 11.44 sec
+[bwa_index] Pack forward-only FASTA... [BWTIncConstructFromPacked] 300 iterations done. 2815954164 characters processed.
+[BWTIncConstructFromPacked] 350 iterations done. 2837598464 characters processed.
+[bwa_index] 1288.84 seconds elapse.
+[bwa_index] Update BWT... 12.50 sec
+[bwa_index] Construct SA from BWT and Occ... 13.67 sec
+[bwa_index] Pack forward-only FASTA... [BWTIncConstructFromPacked] 310 iterations done. 2860961060 characters processed.
+12.04 sec
+[bwa_index] Construct SA from BWT and Occ... [BWTIncConstructFromPacked] 320 iterations done. 2900959300 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 2936505764 characters processed.
+[BWTIncConstructFromPacked] 340 iterations done. 2968095540 characters processed.
+[BWTIncConstructFromPacked] 350 iterations done. 2996168580 characters processed.
+[BWTIncConstructFromPacked] 360 iterations done. 3021115924 characters processed.
+[BWTIncConstructFromPacked] 370 iterations done. 3043285172 characters processed.
+[bwa_index] 1440.37 seconds elapse.
+[bwa_index] Update BWT... 13.34 sec
+[bwa_index] Pack forward-only FASTA... 13.58 sec
+[bwa_index] Construct SA from BWT and Occ... 405.73 sec
+[bwt_gen] Finished constructing BWT in 354 iterations.
+[main] Version: 0.7.15-r1140
+[main] CMD: /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_scaff.fasta /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_scaff.fasta
+[main] Real time: 1690.650 sec; CPU: 1686.166 sec
+404.44 sec
+[bwt_gen] Finished constructing BWT in 353 iterations.
+[main] Version: 0.7.15-r1140
+[main] CMD: /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_ExtIll.fasta /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_ExtIll.fasta
+[main] Real time: 1743.863 sec; CPU: 1739.305 sec
+458.01 sec
+[bwt_gen] Finished constructing BWT in 347 iterations.
+[main] Version: 0.7.15-r1140
+[main] CMD: /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/FC6_flyeOld.fasta /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/FC6_flyeOld.fasta
+[main] Real time: 1778.100 sec; CPU: 1773.798 sec
+444.16 sec
+[bwt_gen] Finished constructing BWT in 373 iterations.
+[main] Version: 0.7.15-r1140
+[main] CMD: /bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/wtdbg5FC_ExtIll.fasta /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/wtdbg5FC_ExtIll.fasta
+[main] Real time: 1937.966 sec; CPU: 1932.798 sec
+sambamba-markdup: More than 16383 reference sequences are unsupported
+sambamba-markdup: More than 16383 reference sequences are unsupported
+sambamba-markdup: More than 16383 reference sequences are unsupported
+sambamba-markdup: More than 16383 reference sequences are unsupported

@@ -1,0 +1,220 @@
+/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast.py --pe1 Massospora_2019-06_R1.fq.gz --pe2 Massospora_2019-06_R2.fq.gz --fungus --large --threads 32 -o flye_vs_wtdbg -l FC6_flyeOld,Flye5FC_M_R8_ExtIll,Flye5FC_M_R8_scaff,wtdbg5FC_ExtIll Massospora_cicadina_MCPNR19.v_flye.sorted.fasta ../asm/extend_bbmap/flye_5FC_medaka_R8/Masso_flye_5FC_M_R8.bbextend_round9.fasta ../asm/scaffold_ragtag/ragtag_output_flye5FC_M_R8_bbcons_SCAF_wtdbg/ragtag.scaffold.fasta ../asm/consensus_bbmap/wtdbg_5FC_round1/Masso_5FC.consensus_round2.fasta
+
+Version: 5.1.0rc1, 6260eff0
+
+System information:
+  OS: Linux-3.10.0-1160.15.2.el7.x86_64-x86_64-with-glibc2.17 (linux_64)
+  Python version: 3.10.2
+  CPUs number: 64
+
+Started: 2022-01-21 12:09:24
+
+Logging to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare
+Main parameters: 
+  MODE: large, threads: 32, eukaryotic: true, min contig length: 3000, min alignment length: 500, \
+  min alignment IDY: 95.0, ambiguity: one, threshold for extensive misassembly size: 7000
+
+Contigs:
+  Pre-processing...
+  1  Massospora_cicadina_MCPNR19.v_flye.sorted.fasta ==> FC6_flyeOld
+  2  ../asm/extend_bbmap/flye_5FC_medaka_R8/Masso_flye_5FC_M_R8.bbextend_round9.fasta ==> Flye5FC_M_R8_ExtIll
+  3  ../asm/scaffold_ragtag/ragtag_output_flye5FC_M_R8_bbcons_SCAF_wtdbg/ragtag.scaffold.fasta ==> Flye5FC_M_R8_scaff
+  4  ../asm/consensus_bbmap/wtdbg_5FC_round1/Masso_5FC.consensus_round2.fasta ==> wtdbg5FC_ExtIll
+
+2022-01-21 12:11:56
+Running Reads analyzer...
+  Logging to files /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.log and /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err...
+  1  Pre-processing reads...
+  1  Running BWA...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa \
+index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/FC6_flyeOld.fasta \
+/bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/FC6_flyeOld.fasta \
+>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err \
+2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+  2  Pre-processing reads...
+  2  Running BWA...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa \
+index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_ExtIll.fasta \
+/bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_ExtIll.fasta \
+>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err \
+2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+  3  Pre-processing reads...
+  3  Running BWA...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa \
+index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_scaff.fasta \
+/bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_scaff.fasta \
+>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err \
+2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+  4  Pre-processing reads...
+  4  Running BWA...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bwa/bwa \
+index -p /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/wtdbg5FC_ExtIll.fasta \
+/bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast_corrected_input/wtdbg5FC_ExtIll.fasta \
+>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err \
+2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam Flye5FC_M_R8_scaff.pe1.sam > Flye5FC_M_R8_scaff.pe1.bam 2>> \
+/bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam Flye5FC_M_R8_ExtIll.pe1.sam > Flye5FC_M_R8_ExtIll.pe1.bam 2>> \
+/bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam FC6_flyeOld.pe1.sam > FC6_flyeOld.pe1.bam 2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam wtdbg5FC_ExtIll.pe1.sam > wtdbg5FC_ExtIll.pe1.bam 2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+markdup -r -t 6 --tmpdir /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats \
+Flye5FC_M_R8_scaff.pe1.bam Flye5FC_M_R8_scaff.pe1.dedup.bam 2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+The tool returned non-zero. See ../reads_stats.err for stderr.
+  3  Done.
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -H -S flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.sam > flye_vs_wtdbg/reads_stats/Flye5FC_M_R8_scaff.sam.header \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+  3  Sorting SAM-file...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+markdup -r -t 6 --tmpdir /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats \
+FC6_flyeOld.pe1.bam FC6_flyeOld.pe1.dedup.bam 2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+The tool returned non-zero. See ../reads_stats.err for stderr.
+  1  Done.
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -H -S flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.sam > flye_vs_wtdbg/reads_stats/FC6_flyeOld.sam.header \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+  1  Sorting SAM-file...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+markdup -r -t 6 --tmpdir /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats \
+Flye5FC_M_R8_ExtIll.pe1.bam Flye5FC_M_R8_ExtIll.pe1.dedup.bam 2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+The tool returned non-zero. See ../reads_stats.err for stderr.
+  2  Done.
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -H -S flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.sam > flye_vs_wtdbg/reads_stats/Flye5FC_M_R8_ExtIll.sam.header \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+  2  Sorting SAM-file...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.all.correct.sam \
+> flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.bam 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.all.correct.sam \
+> flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.bam 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.all.correct.sam \
+> flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.bam 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+markdup -r -t 6 --tmpdir /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats \
+wtdbg5FC_ExtIll.pe1.bam wtdbg5FC_ExtIll.pe1.dedup.bam 2>> /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_stats.err
+The tool returned non-zero. See ../reads_stats.err for stderr.
+  4  Done.
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -H -S flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.sam > flye_vs_wtdbg/reads_stats/wtdbg5FC_ExtIll.sam.header \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+  4  Sorting SAM-file...
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+view -t 6 -h -S -f bam flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.all.correct.sam \
+> flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.bam 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+flagstat -t 6 flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.bam > flye_vs_wtdbg/reads_stats/FC6_flyeOld.stat \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+flagstat -t 6 flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.bam > flye_vs_wtdbg/reads_stats/Flye5FC_M_R8_scaff.stat \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+bamtobed -i flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.bam > flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+bamtobed -i flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.bam > flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+flagstat -t 6 flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.bam > flye_vs_wtdbg/reads_stats/Flye5FC_M_R8_ExtIll.stat \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+bamtobed -i flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.bam > flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+sort -k1,1 -k2,2n flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.bed > flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.sorted.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+sort -k1,1 -k2,2n flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.bed > flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.sorted.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/sambamba/sambamba_linux \
+flagstat -t 6 flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.bam > flye_vs_wtdbg/reads_stats/wtdbg5FC_ExtIll.stat \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+sort -k1,1 -k2,2n flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.bed > \
+flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.sorted.bed 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+bamtobed -i flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.bam > flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+genomecov -i flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.sorted.bed -g flye_vs_wtdbg/quast_corrected_input/FC6_flyeOld.fasta.fai \
+> flye_vs_wtdbg/reads_stats/temp_output/FC6_flyeOld.genomecov 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+sort -k1,1 -k2,2n flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.bed > flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.sorted.bed \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+genomecov -i flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.sorted.bed -g \
+flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_scaff.fasta.fai > flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_scaff.genomecov \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+genomecov -i flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.sorted.bed \
+-g flye_vs_wtdbg/quast_corrected_input/Flye5FC_M_R8_ExtIll.fasta.fai > flye_vs_wtdbg/reads_stats/temp_output/Flye5FC_M_R8_ExtIll.genomecov \
+2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+  1  Analysis is finished.
+  3  Analysis is finished.
+  2  Analysis is finished.
+/bigdata/operations/pkgadmin/opt/linux/centos/7.x/x86_64/pkgs/QUAST/5.1.0rc1/quast_libs/bedtools/bin/bedtools \
+genomecov -i flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.sorted.bed -g flye_vs_wtdbg/quast_corrected_input/wtdbg5FC_ExtIll.fasta.fai \
+> flye_vs_wtdbg/reads_stats/temp_output/wtdbg5FC_ExtIll.genomecov 2>> flye_vs_wtdbg/reads_stats/reads_stats.err
+  4  Analysis is finished.
+  Creating total report...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/reads_stats/reads_report.txt, reads_report.tsv, and reads_report.tex
+Done.
+
+2022-01-21 14:19:55
+Running Basic statistics processor...
+  Contig files: 
+    1  FC6_flyeOld
+    2  Flye5FC_M_R8_ExtIll
+    3  Flye5FC_M_R8_scaff
+    4  wtdbg5FC_ExtIll
+  Calculating N50 and L50...
+    1  FC6_flyeOld, N50 = 87040, L50 = 4551, Total length = 1392084966, GC % = 40.96, # N's per 100 kbp =  0.12
+    2  Flye5FC_M_R8_ExtIll, N50 = 102180, L50 = 3906, Total length = 1420908688, GC % = 40.95, # N's per 100 kbp =  0.00
+    3  Flye5FC_M_R8_scaff, N50 = 172239, L50 = 2497, Total length = 1428896491, GC % = 40.92, # N's per 100 kbp =  173.50
+    4  wtdbg5FC_ExtIll, N50 = 139519, L50 = 3282, Total length = 1524464642, GC % = 41.41, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/GC_content_plot.pdf
+  Drawing FC6_flyeOld GC content plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/FC6_flyeOld_GC_content_plot.pdf
+  Drawing Flye5FC_M_R8_ExtIll GC content plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/Flye5FC_M_R8_ExtIll_GC_content_plot.pdf
+  Drawing Flye5FC_M_R8_scaff GC content plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/Flye5FC_M_R8_scaff_GC_content_plot.pdf
+  Drawing wtdbg5FC_ExtIll GC content plot...
+    saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/basic_stats/wtdbg5FC_ExtIll_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-01-21 14:26:53
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2022-01-21 14:28:20
+RESULTS:
+  Text versions of total report are saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/report.html
+  PDF version (tables and plots) is saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/report.pdf
+  Icarus (contig browser) is saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/icarus.html
+  Log is saved to /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_cicadina_Nanopore/assembly/compare/flye_vs_wtdbg/quast.log
+
+Finished: 2022-01-21 14:28:20
+Elapsed time: 2:18:55.356134
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

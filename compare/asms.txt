@@ -1,0 +1,4 @@
+Massospora_cicadina_MCPNR19.v_flye.sorted.fasta
+../asm/extend_bbmap/flye_5FC_medaka_R8/Masso_flye_5FC_M_R8.bbextend_round9.fasta 
+../asm/scaffold_ragtag/ragtag_output_flye5FC_M_R8_bbcons_SCAF_wtdbg/ragtag.scaffold.fasta 
+../asm/consensus_bbmap/wtdbg_5FC_round1/Masso_5FC.consensus_round2.fasta
