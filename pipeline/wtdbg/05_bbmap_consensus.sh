@@ -1,11 +1,10 @@
 #!/usr/bin/bash -l
-#SBATCH -N 1 -n 96 -p short --mem 256gb -C xeon --out logs/wtdbg_bbmap_consensus.%A.log
-# -N 1 -n 48 -p batch,intel --mem 128gb --out logs/wtdbg_bbmap_consensus.%A.log
+#SBATCH -N 1 -p batch,intel -n 48 --mem 192gb --out logs/wtdbg_bbmap_consensus.%A.log
 module load BBMap
 module load samtools
 module load bcftools
 module load workspace/scratch
-MEM=256g
+MEM=192g
 CPU=$SLURM_CPUS_ON_NODE
 if [ -z $CPU ]; then
 	CPU=1
